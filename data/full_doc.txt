@@ -1,0 +1,1 @@
+<INSERT THE FULL CUSTOMER SUPPORT DOC DATA FROM SOURCE_URL HERE. The text should cover at least 8000 support docs—include all rows, not a subset. Each doc should start with delimiters (e.g. DOC_ID:12345, CATEGORY:xyz, PRIORITY:Low, DATE:yyyy-mm-dd followed by body text). This file must be the complete raw corpus as per the source_url.>
