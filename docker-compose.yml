@@ -1,0 +1,16 @@
+services:
+  chromadb:
+    image: chromadb/chroma
+    command: --path /chroma-data
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./vector_store:/chroma-data
+  app:
+    build: .
+    depends_on:
+      - chromadb
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
